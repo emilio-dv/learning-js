@@ -1,7 +1,7 @@
 
 let name = 'Emilio'
 const arto = {
-    name: 'Arto Hellas',
+    name: undefined,
     age: 35,
     education: 'PhD',
     greet: function() {
@@ -24,3 +24,10 @@ const arto = {
 
   const referenceToGreet = arto.greet.bind(arto)
 referenceToGreet() // imprime "hello, my name is undefined"
+
+//===================Verificacion de si existe la propiedad en un objeto 
+if("name" in arto){
+  console.log('The property exists')
+}else{
+  console.log('no exist')
+}
