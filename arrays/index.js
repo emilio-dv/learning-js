@@ -13,7 +13,7 @@ const [uno, dos, ...rest] = elements;
 
 console.log(elements)
 console.log(uno, dos)
-console.log(rest)   
+console.log(rest)     
 
 console.log('change repos git')
 
